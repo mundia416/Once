@@ -5,12 +5,13 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="C:/Program Files/dev softwares/gradle-4.9-all/gradle-4.9" />
+        <option name="gradleHome" value="C:/gradle-4.9" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/oncelib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

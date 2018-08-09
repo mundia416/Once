@@ -1,4 +1,4 @@
-package com.nosetrap.once;
+package com.nosetrap.oncelib;
 
 import org.junit.Test;
 
