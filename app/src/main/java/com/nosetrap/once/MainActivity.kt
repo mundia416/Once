@@ -43,6 +43,12 @@ class MainActivity : AppCompatActivity() {
                     Log.d("Once","4")
                 }
             })
+            val a = Once.isExecuted(this,1)
+            val b = Once.isExecuted(this,2)
+            val c = Once.isExecuted(this,3)
+            val d = Once.isExecuted(this,4)
+
+            val f = 4
         }
     }
 }
