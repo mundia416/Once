@@ -1,5 +1,5 @@
 # once
-a library that makes it easier to implement code that should only ever run once in the apps entire lifetime 
+a library that makes it easier to implement code that should only ever run once in the apps entire lifetime or when the app is updated
 
 ## Usage
 
