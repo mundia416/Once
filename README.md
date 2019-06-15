@@ -1,5 +1,5 @@
 # once
-a library that makes it easier to implement code that should only ever run once in the apps entire lifetime 
+a library that makes it easier to implement code that should only ever run once in the apps entire lifetime or when the app is updated
 
 ## Usage
 
@@ -27,9 +27,6 @@ to use, simply create a once object, give it an id and pass a RunOnce interface 
   ````
   
   the id enables you to have different blocks of code in different parts of the app run id.
-
-## Features to Come
--have code that will execute every time the app is updated
 
 ## Author
 
