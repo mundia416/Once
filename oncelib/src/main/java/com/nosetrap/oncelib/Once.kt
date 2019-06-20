@@ -72,7 +72,7 @@ class Once(private val context: Context) {
     fun execute(runOnceCode: () -> Unit): Boolean {
         return if (!isExecuted()) {
             runOnceCode.invoke()
-            editor.putBoolean(isFirstRun+id, false)
+            editor.putBoolean(isFirstRun+id, false).commit()
             true
         } else {
             false
@@ -91,7 +91,7 @@ class Once(private val context: Context) {
 
         return if (!isUpdateExecuted()) {
             runOnceCode.invoke()
-            editor.putInt(isUpdateRun+id, currentAppVersionCode)
+            editor.putInt(isUpdateRun+id, currentAppVersionCode).commit()
             true
         } else {
             false
